@@ -1,0 +1,19 @@
+<?php
+session_start();
+require_once 'includes/db_config.php';
+$pageTitle = 'About Us';
+include 'includes/header.php';
+?>
+<div class="page-header"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb mb-2"><li class="breadcrumb-item"><a href="index.php">Home</a></li><li class="breadcrumb-item active">About Us</li></ol></nav><h1>About Glamour Haven</h1></div></div>
+<section class="about-section"><div class="container"><div class="row align-items-center g-5"><div class="col-lg-6"><img src="images/about.jpg" alt="About Glamour Haven" class="about-img w-100"></div><div class="col-lg-6"><h2>Our Story</h2><p>Glamour Haven was founded with a simple mission: to make premium beauty products accessible to everyone. We believe that makeup is not just about looking beautiful -- it is about feeling confident and expressing your unique personality.</p><p>Since our founding, we have grown from a small passion project into a trusted destination for beauty enthusiasts. Our carefully curated collection features only the highest quality products that we have personally tested and approved.</p><p>Every product in our store is cruelty-free, ethically sourced, and designed to work for all skin types and tones. We are committed to inclusivity and believe that beauty has no boundaries.</p></div></div></div></section>
+<section class="py-5" style="background: var(--light-gray);"><div class="container"><div class="section-heading"><h2>Our Values</h2><p>What makes Glamour Haven different</p></div>
+    <div class="row g-4">
+        <div class="col-lg-4 col-md-6"><div class="value-card"><i class="bi bi-heart d-block"></i><h5>Cruelty Free</h5><p class="text-muted">All our products are 100% cruelty-free. We never test on animals and partner only with ethical brands.</p></div></div>
+        <div class="col-lg-4 col-md-6"><div class="value-card"><i class="bi bi-globe d-block"></i><h5>Inclusive Beauty</h5><p class="text-muted">Our shade ranges are designed for every skin tone. Beauty is for everyone, and our products reflect that.</p></div></div>
+        <div class="col-lg-4 col-md-6"><div class="value-card"><i class="bi bi-leaf d-block"></i><h5>Clean Ingredients</h5><p class="text-muted">We prioritize clean, safe ingredients. No parabens, sulfates, or harmful chemicals in any of our products.</p></div></div>
+        <div class="col-lg-4 col-md-6"><div class="value-card"><i class="bi bi-star d-block"></i><h5>Quality First</h5><p class="text-muted">Every product goes through rigorous quality testing before it makes it to our shelves.</p></div></div>
+        <div class="col-lg-4 col-md-6"><div class="value-card"><i class="bi bi-chat-heart d-block"></i><h5>Expert Advice</h5><p class="text-muted">Our beauty experts are here to help you find the perfect products for your unique needs.</p></div></div>
+        <div class="col-lg-4 col-md-6"><div class="value-card"><i class="bi bi-recycle d-block"></i><h5>Sustainability</h5><p class="text-muted">We use eco-friendly packaging and support sustainable beauty practices for a better planet.</p></div></div>
+    </div></div></section>
+<section class="py-5"><div class="container"><div class="row text-center g-4"><div class="col-md-3 col-6"><h2 class="text-glamour fw-bold" style="font-size: 2.5rem;">500+</h2><p class="text-muted">Products</p></div><div class="col-md-3 col-6"><h2 class="text-glamour fw-bold" style="font-size: 2.5rem;">50K+</h2><p class="text-muted">Happy Customers</p></div><div class="col-md-3 col-6"><h2 class="text-glamour fw-bold" style="font-size: 2.5rem;">4.8</h2><p class="text-muted">Average Rating</p></div><div class="col-md-3 col-6"><h2 class="text-glamour fw-bold" style="font-size: 2.5rem;">100%</h2><p class="text-muted">Cruelty Free</p></div></div></div></section>
+<?php include 'includes/footer.php'; ?>
