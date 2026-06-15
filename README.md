@@ -1,2 +1,2 @@
 # GlamourHaven
-Shopping Application - Sampling a Shop for Beauty Products
+Shopping E-commerce Application - Sampling a Shop for Beauty Products
